@@ -1,10 +1,10 @@
 public class Rectangle extends Shape {
 
     //variable for rectangle length
-    private double length;
+    private final double length;
 
     //variable for rectangle width
-    private double width;
+    private final double width;
 
     //Constructor for the class Rectangle
     public Rectangle(double length, double width) {

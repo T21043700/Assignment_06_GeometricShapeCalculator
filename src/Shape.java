@@ -9,13 +9,15 @@ public abstract class Shape implements Measurable {
         return name;
     }
 
+
+
     @Override
-    public double getArea(double area) {
-        return area;
+    public double getArea(){
+        return 0;
     }
 
     @Override
-    public double getPerimeter(double perimeter) {
-        return perimeter;
+    public double getPerimeter() {
+        return 0;
     }
 }

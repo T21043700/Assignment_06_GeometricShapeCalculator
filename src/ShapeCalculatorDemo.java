@@ -8,7 +8,6 @@ public class ShapeCalculatorDemo {
         sh1[0] = new Circle(5);
         sh1[1] = new Rectangle(6, 4);
         sh1[2] = new Circle(2.5);
-        //sh1[3] = new Rectangle(2, 3);
 
         //Print Main Calculations
         mainPrintOut(sh1);
